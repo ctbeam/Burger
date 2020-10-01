@@ -29,6 +29,3 @@ app.use(routes);
 app.listen(PORT, function () {
   console.log("Server listening on: http://localhost:" + PORT);
 });
-
-console.log("node process: " + process.env.NODE_ENV);
-// console.log("process.env:", process.env);
